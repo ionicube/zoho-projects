@@ -3,6 +3,7 @@ const nextConfig = {
     output: 'standalone',
     env: {
         ZOHO_CLIENT_ID: process.env.ZOHO_CLIENT_ID,
+        ZOHO_CLIENT_SECRET: process.env.ZOHO_CLIENT_SECRET,
         AUTH_SECRET: process.env.AUTH_SECRET,
     },
 }
